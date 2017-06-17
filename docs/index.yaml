@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ldap:
   - apiVersion: v1
-    created: 2017-06-17T09:47:01.226463048Z
+    created: 2017-06-17T11:55:08.702113979+02:00
     description: A Helm chart for OpenLDAP
     digest: 55606b51830fbd342b1a60f1a19960d2157383c5836d8f4e235b66a2b67d2c34
     name: ldap
@@ -10,8 +10,26 @@ entries:
     - https://yonadev.github.io/helm-charts/ldap-0.1.0.tgz
     version: 0.1.0
   yona-server:
+  - appVersion: "549"
+    created: 2017-06-17T11:55:08.708908657+02:00
+    description: The Yona Server backs the Yona mobile app, providing user management,
+      buddy relationship management, web traffic classification and buddy messaging
+    digest: 9d5dd65356d4b98fe3af036d7efaa5b8760437f585939ea3ff7b870a025ba85a
+    home: https://yona.nu/
+    icon: http://www.yona.nu/wp-content/themes/yona/assets/img/yona-logo.png
+    maintainers:
+    - email: richard@kerkhofftech.ca
+      name: Richard Clark
+    - email: bert@famroos.nu
+      name: Bert Roos
+    name: yona-server
+    sources:
+    - https://github.com/yonadev/yona-server
+    urls:
+    - https://yonadev.github.io/helm-charts/yona-server-1.2.549.tgz
+    version: 1.2.549
   - appVersion: "347"
-    created: 2017-06-17T09:47:01.230448125Z
+    created: 2017-06-17T11:55:08.706584757+02:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 7a5915183d03632c4bd7fdc1e8289a551818a34333ad8c8f7e4d42520aea7197
@@ -29,7 +47,7 @@ entries:
     - https://yonadev.github.io/helm-charts/yona-server-1.2.347.tgz
     version: 1.2.347
   - appVersion: "346"
-    created: 2017-06-17T09:47:01.228607924Z
+    created: 2017-06-17T11:55:08.704455166+02:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: d88bc5b128583b76095523041d012f97cb15bc3acd0158f24527e76d3adadc27
@@ -46,4 +64,4 @@ entries:
     urls:
     - https://yonadev.github.io/helm-charts/yona-server-1.2.345.tgz
     version: 1.2.345
-generated: 2017-06-17T09:47:01.225977815Z
+generated: 2017-06-17T11:55:08.701498992+02:00
