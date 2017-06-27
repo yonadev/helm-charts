@@ -18,6 +18,7 @@ metadata:
   annotations:
     "helm.sh/resource-policy": keep
 spec:
+  storageClass: yona-default
   accessModes:
     - ReadWriteOnce
   resources:
