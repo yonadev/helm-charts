@@ -2,8 +2,6 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: ldapdataclaim
-  annotations:
-    "helm.sh/resource-policy": keep
 spec:
   storageClassName: yona-default
   accessModes:
@@ -16,8 +14,6 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: sldapdataclaim
-  annotations:
-    "helm.sh/resource-policy": keep
 spec:
   storageClassName: yona-default
   accessModes:
