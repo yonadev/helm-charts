@@ -3,7 +3,9 @@ apiVersion: v1
 metadata:
   name: ldapdataclaim
 spec:
-  storageClassName: yona-default
+{{- if .Values.storage_class_name_ldap }}
+  storageClassName: {{ .Values.storage_class_name_ldap | quote }}
+{{- end }}
   accessModes:
     - ReadWriteOnce
   resources:
@@ -15,7 +17,9 @@ apiVersion: v1
 metadata:
   name: sldapdataclaim
 spec:
-  storageClassName: yona-default
+{{- if .Values.storage_class_name_sldap }}
+  storageClassName: {{ .Values.storage_class_name_sldap | quote }}
+{{- end }}
   accessModes:
     - ReadWriteOnce
   resources:
