@@ -2,11 +2,13 @@
 
 This repository contains the Helm charts for Yona, including its prerequisites. The Yona packages are automatically added through [the Jenkins build](https://yonadev.ci.cloudbees.com/job/build-and-test/job/master/).
 
-To build a new version of the LDAP package and update the index:
+To build a new versions of the LDAP or Hazelcast packages and update the index:
 
 ```
 helm package -d docs ldap
-helm repo index docs --url https://yonadev.github.io/helm-charts
+helm package -d docs hazelcast
+
+helm repo index docs --url https://jump.ops.yona.nu/helm-charts
 ```
 
 Then commit and push.
