@@ -3,7 +3,7 @@ entries:
   hazelcast:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-02-25T19:22:36.652786589+01:00
+    created: 2019-02-25T19:30:57.082389325+01:00
     description: Hazelcast Kubernetes
     digest: 5fa707d9cfb8a387880677c9871cd8c6b284f961cbc59a2455c6ab0f6bb74cca
     name: hazelcast
@@ -12,7 +12,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-02-25T19:22:36.652508629+01:00
+    created: 2019-02-25T19:30:57.082145318+01:00
     description: Hazelcast Kubernetes
     digest: e27a4f9461c7e81cf27e5ba358b34185fb5f2cae422f301a32db552b61694048
     name: hazelcast
@@ -21,7 +21,7 @@ entries:
     version: 0.1.0
   ldap:
   - apiVersion: v1
-    created: 2019-02-25T19:22:36.653313599+01:00
+    created: 2019-02-25T19:30:57.0830491+01:00
     description: A Helm chart for OpenLDAP
     digest: f35416eb917c8c131e46f87644b5816e34291dc7f6285022a47739404447b3ac
     name: ldap
@@ -29,7 +29,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/ldap-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2019-02-25T19:22:36.653045441+01:00
+    created: 2019-02-25T19:30:57.082587627+01:00
     description: A Helm chart for OpenLDAP
     digest: 51bfdf85e43da6196145be9c633116ee4a5d12831267e411a4c67a134268e4ff
     name: ldap
@@ -37,8 +37,26 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/ldap-0.1.0.tgz
     version: 0.1.0
   yona:
+  - appVersion: "4"
+    created: 2019-02-25T19:30:57.329685099+01:00
+    description: The Yona Server backs the Yona mobile app, providing user management,
+      buddy relationship management, web traffic classification and buddy messaging
+    digest: 3700d4f9ab6a6a56faf094c596952b4f95ff252d77bc305e2925927d3919c193
+    home: https://yona.nu/
+    icon: http://www.yona.nu/wp-content/themes/yona/assets/img/yona-logo.png
+    maintainers:
+    - email: richard@kerkhofftech.ca
+      name: Richard Clark
+    - email: bert@famroos.nu
+      name: Bert Roos
+    name: yona
+    sources:
+    - https://github.com/yonadev/yona-server
+    urls:
+    - https://jump.ops.yona.nu/helm-charts/yona-2.0.4.tgz
+    version: 2.0.4
   - appVersion: "3"
-    created: 2019-02-25T19:22:36.915886067+01:00
+    created: 2019-02-25T19:30:57.328065883+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 47cf314aec2f504c7407103d3bd8600716627433c9fb7956abdfc52af8ebd414
@@ -56,7 +74,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-2.0.3.tgz
     version: 2.0.3
   - appVersion: "2"
-    created: 2019-02-25T19:22:36.913988884+01:00
+    created: 2019-02-25T19:30:57.326043788+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4c9ac02618c99439886296c1c6a36965670be7bd4712d9db468aa9ec27bd60b2
@@ -74,7 +92,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-2.0.2.tgz
     version: 2.0.2
   - appVersion: "1010"
-    created: 2019-02-25T19:22:36.663549809+01:00
+    created: 2019-02-25T19:30:57.093812122+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 3b06c793b19d10f149a06fe6d2f50f2750f9cfaa0044257103dce09cc02a30ca
@@ -92,7 +110,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.1010.tgz
     version: 1.2.1010
   - appVersion: "1009"
-    created: 2019-02-25T19:22:36.661869913+01:00
+    created: 2019-02-25T19:30:57.091995911+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: a9061e4e752274fdb8fe171bdfc2e0f854d6fb2ea52246f282ef7fdb305412c5
@@ -110,7 +128,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.1009.tgz
     version: 1.2.1009
   - appVersion: "1007"
-    created: 2019-02-25T19:22:36.660210886+01:00
+    created: 2019-02-25T19:30:57.090265406+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: bc0be39495cf54d7580cf315339b0a7812a5711aa7ee7153103ba847fd0230f3
@@ -128,7 +146,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.1007.tgz
     version: 1.2.1007
   - appVersion: "1006"
-    created: 2019-02-25T19:22:36.658556621+01:00
+    created: 2019-02-25T19:30:57.088378427+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 43081712a4390158878200d29cce867026cdf89d57f6bd8b9314e0b42f1c5d76
@@ -146,7 +164,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.1006.tgz
     version: 1.2.1006
   - appVersion: "1001"
-    created: 2019-02-25T19:22:36.656958633+01:00
+    created: 2019-02-25T19:30:57.086770226+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 196c2ec728578f91179153456d4c1e700f7482bfeb4825a877127d985db3f2c4
@@ -164,7 +182,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.1001.tgz
     version: 1.2.1001
   - appVersion: "1000"
-    created: 2019-02-25T19:22:36.655215127+01:00
+    created: 2019-02-25T19:30:57.085046814+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: cbb6613a67508fc2937dbe7bf60e1cd95f3db45792626ca4b125bcb5336d8d2f
@@ -182,7 +200,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.1000.tgz
     version: 1.2.1000
   - appVersion: "999"
-    created: 2019-02-25T19:22:36.911952992+01:00
+    created: 2019-02-25T19:30:57.322959496+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4db41e589e0e17f38a36be31b26db77c749ffd7a2169b8904ce827022dc8c21c
@@ -200,7 +218,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.999.tgz
     version: 1.2.999
   - appVersion: "996"
-    created: 2019-02-25T19:22:36.909805183+01:00
+    created: 2019-02-25T19:30:57.321214954+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: e52efb6adac890373c9d8eafdee49646db8364322e94e551d5b060cc7eed74a5
@@ -218,7 +236,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.996.tgz
     version: 1.2.996
   - appVersion: "995"
-    created: 2019-02-25T19:22:36.907761923+01:00
+    created: 2019-02-25T19:30:57.319529745+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: c98698499c5c6b9fb866cba621f430c2c58069a535cb2b54841a6c601fafd68f
@@ -236,7 +254,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.995.tgz
     version: 1.2.995
   - appVersion: "994"
-    created: 2019-02-25T19:22:36.906101661+01:00
+    created: 2019-02-25T19:30:57.317802533+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: bc8a84cd84aa5ed3be646e64db782bdb3a252927a093bb5892609f2a39051f3b
@@ -254,7 +272,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.994.tgz
     version: 1.2.994
   - appVersion: "992"
-    created: 2019-02-25T19:22:36.904234178+01:00
+    created: 2019-02-25T19:30:57.316046494+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: a0e797d4f2e822a12d34c6c0d914b047c409f086acc5b527833f8b241189b299
@@ -272,7 +290,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.992.tgz
     version: 1.2.992
   - appVersion: "990"
-    created: 2019-02-25T19:22:36.902360631+01:00
+    created: 2019-02-25T19:30:57.314442408+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: d6412485e7a2b43478eba5e10773c2b8db2628247691659d483fbc7baf090e3a
@@ -290,7 +308,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.990.tgz
     version: 1.2.990
   - appVersion: "988"
-    created: 2019-02-25T19:22:36.900651911+01:00
+    created: 2019-02-25T19:30:57.312751041+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: c51aa940fbbdf945277b7130ebea8ad6bf1e5598d69a1c74f51c73077e739a03
@@ -308,7 +326,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.988.tgz
     version: 1.2.988
   - appVersion: "987"
-    created: 2019-02-25T19:22:36.898956496+01:00
+    created: 2019-02-25T19:30:57.311055377+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 5bce9656284c4606bb0a8f36048857496999fdaac3f54f2bcb0e736c88214a90
@@ -326,7 +344,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.987.tgz
     version: 1.2.987
   - appVersion: "986"
-    created: 2019-02-25T19:22:36.897309961+01:00
+    created: 2019-02-25T19:30:57.309460301+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 3158bea3704901040a1222282390c6a8cda447084baa0873af88a5752b80d311
@@ -344,7 +362,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.986.tgz
     version: 1.2.986
   - appVersion: "984"
-    created: 2019-02-25T19:22:36.894450836+01:00
+    created: 2019-02-25T19:30:57.307814051+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 325dbd4286e625887f831c075f835e019b94674b68fd8983875ad951eee3c366
@@ -362,7 +380,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.984.tgz
     version: 1.2.984
   - appVersion: "983"
-    created: 2019-02-25T19:22:36.89255078+01:00
+    created: 2019-02-25T19:30:57.306296943+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 9ffa00730347e70b34f7020e6412395277d515feeeac8d27a538331eb9fc2297
@@ -380,7 +398,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.983.tgz
     version: 1.2.983
   - appVersion: "981"
-    created: 2019-02-25T19:22:36.890789493+01:00
+    created: 2019-02-25T19:30:57.303807243+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: d520ef7265d2aeb94146953efaf515987f9bd92a775ce5f3fb382c3a98f23e48
@@ -398,7 +416,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.981.tgz
     version: 1.2.981
   - appVersion: "980"
-    created: 2019-02-25T19:22:36.888075464+01:00
+    created: 2019-02-25T19:30:57.301150671+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 82d8f68ab9c32dca9e9e128d1628660e3d4fad37f09254dd3bcd156ff4a30161
@@ -416,7 +434,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.980.tgz
     version: 1.2.980
   - appVersion: "978"
-    created: 2019-02-25T19:22:36.886164744+01:00
+    created: 2019-02-25T19:30:57.299533291+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 72d9724c1684e818f9c7180c5117ce25fedf6fa1a7bdb5e5822b2e1182090b95
@@ -434,7 +452,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.978.tgz
     version: 1.2.978
   - appVersion: "977"
-    created: 2019-02-25T19:22:36.882821721+01:00
+    created: 2019-02-25T19:30:57.297807814+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 254e591d5fef43acd84f9c3452e50a2d4ea0b40c211b99b5e7a25cc617e65b5b
@@ -452,7 +470,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.977.tgz
     version: 1.2.977
   - appVersion: "975"
-    created: 2019-02-25T19:22:36.881084795+01:00
+    created: 2019-02-25T19:30:57.296198449+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: c067c4b47c92a8a660e05be7b1b143e2eb75735a8ee12c6c2ccc0f28f333a6df
@@ -470,7 +488,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.975.tgz
     version: 1.2.975
   - appVersion: "974"
-    created: 2019-02-25T19:22:36.879387587+01:00
+    created: 2019-02-25T19:30:57.294405144+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: c40c4eaae2c1d8aa99e452cb41109e2243feab895b4c2252c96d4dc4ec78e257
@@ -488,7 +506,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.974.tgz
     version: 1.2.974
   - appVersion: "973"
-    created: 2019-02-25T19:22:36.87760947+01:00
+    created: 2019-02-25T19:30:57.292769343+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 20482873b4f41aa4c67be9d5405309996a3bcb65ae32f6872cb4593cabf0a372
@@ -506,7 +524,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.973.tgz
     version: 1.2.973
   - appVersion: "972"
-    created: 2019-02-25T19:22:36.875685446+01:00
+    created: 2019-02-25T19:30:57.291085469+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 414c94316c85bf16bd81716fd38c66ee9e974f6485672496ce7bfef37b285700
@@ -524,7 +542,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.972.tgz
     version: 1.2.972
   - appVersion: "971"
-    created: 2019-02-25T19:22:36.873813491+01:00
+    created: 2019-02-25T19:30:57.289163287+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 578bf1ae68276907ef8352d3089e9c924bdc7b51fff821388976193ff84822b2
@@ -542,7 +560,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.971.tgz
     version: 1.2.971
   - appVersion: "967"
-    created: 2019-02-25T19:22:36.871996157+01:00
+    created: 2019-02-25T19:30:57.287565347+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 2ed8065a54e67d7599af89daec45fd56674b95a17ab0f6bfd6ba981460ae1d62
@@ -560,7 +578,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.967.tgz
     version: 1.2.967
   - appVersion: "963"
-    created: 2019-02-25T19:22:36.87022751+01:00
+    created: 2019-02-25T19:30:57.285937667+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: ad0301899cdbf7208e94c49bfed0425d91221345fbf12714ea1ade464ef95b6a
@@ -578,7 +596,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.963.tgz
     version: 1.2.963
   - appVersion: "962"
-    created: 2019-02-25T19:22:36.868582559+01:00
+    created: 2019-02-25T19:30:57.28426998+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 44d4f09302b2f38711d707ee7d8433416f86eaf89830bda91de9cd717cbd43d9
@@ -596,7 +614,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.962.tgz
     version: 1.2.962
   - appVersion: "961"
-    created: 2019-02-25T19:22:36.866929651+01:00
+    created: 2019-02-25T19:30:57.282479044+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 1699f1b7d1935903b2a49ac1bbf0a004894c875ad6e77571c87fbf939106621b
@@ -614,7 +632,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.961.tgz
     version: 1.2.961
   - appVersion: "960"
-    created: 2019-02-25T19:22:36.864807355+01:00
+    created: 2019-02-25T19:30:57.279695426+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 0c50288ede2a5db43e1ae65fae5976dbd72b0ac97bc40475e8d20be92df2c8fb
@@ -632,7 +650,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.960.tgz
     version: 1.2.960
   - appVersion: "958"
-    created: 2019-02-25T19:22:36.860434205+01:00
+    created: 2019-02-25T19:30:57.277785341+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 1f647c8624d1d00b822bde6a6605c4c902b56aadc6f076a6b8322d9bcebf6151
@@ -650,7 +668,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.958.tgz
     version: 1.2.958
   - appVersion: "957"
-    created: 2019-02-25T19:22:36.858593691+01:00
+    created: 2019-02-25T19:30:57.276150774+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: ef31e06ed563b05d7e25c2aa9069a6acd5fdbf419f3636d740ab37c47c3744e7
@@ -668,7 +686,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.957.tgz
     version: 1.2.957
   - appVersion: "956"
-    created: 2019-02-25T19:22:36.856827192+01:00
+    created: 2019-02-25T19:30:57.274443839+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: f10c543be7a11f773fd933562a5820bd2eef4305fecd876ec9244f0dc4d78377
@@ -686,7 +704,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.956.tgz
     version: 1.2.956
   - appVersion: "953"
-    created: 2019-02-25T19:22:36.854938083+01:00
+    created: 2019-02-25T19:30:57.272595193+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 8d62f5c33d1ff9c07bfbfd8698c745fa0fa91fad62d33712b42dd453de09d9bb
@@ -704,7 +722,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.953.tgz
     version: 1.2.953
   - appVersion: "952"
-    created: 2019-02-25T19:22:36.853165664+01:00
+    created: 2019-02-25T19:30:57.270863687+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: a421ae276f320ab538ae12b24408b3b799b9d72a37e5354149029300ffe372cb
@@ -722,7 +740,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.952.tgz
     version: 1.2.952
   - appVersion: "949"
-    created: 2019-02-25T19:22:36.851043598+01:00
+    created: 2019-02-25T19:30:57.269072457+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 47a2260d40d722acddf545585d2a85d3c3079d15cb0e8642efc1b3e514f502af
@@ -740,7 +758,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.949.tgz
     version: 1.2.949
   - appVersion: "943"
-    created: 2019-02-25T19:22:36.849125177+01:00
+    created: 2019-02-25T19:30:57.267454054+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 2a0cb34c9b176482bba8baceb40c8ee1865201168e62d8c5e7179daef3ddc488
@@ -758,7 +776,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.943.tgz
     version: 1.2.943
   - appVersion: "937"
-    created: 2019-02-25T19:22:36.847496066+01:00
+    created: 2019-02-25T19:30:57.26572061+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: f9c610edb064007da0dfdf16ebde91ed7af5e0f8802df2540152b2b0fee44b49
@@ -776,7 +794,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.937.tgz
     version: 1.2.937
   - appVersion: "933"
-    created: 2019-02-25T19:22:36.845779095+01:00
+    created: 2019-02-25T19:30:57.264060887+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4b2a6d77f9638d84d810a845f1d5a0bac068018bafaef2be58cb267537e18469
@@ -794,7 +812,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.933.tgz
     version: 1.2.933
   - appVersion: "932"
-    created: 2019-02-25T19:22:36.843783158+01:00
+    created: 2019-02-25T19:30:57.262387515+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4d63832dd0bb3b005eab19890fd3580098847473c0ae6141bff70febb0a673e4
@@ -812,7 +830,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.932.tgz
     version: 1.2.932
   - appVersion: "931"
-    created: 2019-02-25T19:22:36.841785183+01:00
+    created: 2019-02-25T19:30:57.260609241+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 1b6d5c3efa0a0731e9b647a191feffcf2be04f65a23b43cc15b20cd9b9d01063
@@ -830,7 +848,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.931.tgz
     version: 1.2.931
   - appVersion: "930"
-    created: 2019-02-25T19:22:36.839852707+01:00
+    created: 2019-02-25T19:30:57.258279871+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 94e66b1668cbe16d2286e12fcbc0e43e6d3203b9916135ff5477fc076781b1a4
@@ -848,7 +866,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.930.tgz
     version: 1.2.930
   - appVersion: "923"
-    created: 2019-02-25T19:22:36.837812912+01:00
+    created: 2019-02-25T19:30:57.256460454+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 13d03d74f7ffc5aa8bfb9c4891b8c0de95b43436178c8fa217bea92e9789a751
@@ -866,7 +884,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.923.tgz
     version: 1.2.923
   - appVersion: "921"
-    created: 2019-02-25T19:22:36.835233126+01:00
+    created: 2019-02-25T19:30:57.254793413+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 208b62b93508761b58d1329d05e6555f94a9863165a581e8d0932d5c4d185e5f
@@ -884,7 +902,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.921.tgz
     version: 1.2.921
   - appVersion: "919"
-    created: 2019-02-25T19:22:36.832946459+01:00
+    created: 2019-02-25T19:30:57.253243911+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 0cc176e8c8a3bf2e3b4e78cc47d93d363661658075998b46854360bf3cf67c46
@@ -902,7 +920,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.919.tgz
     version: 1.2.919
   - appVersion: "916"
-    created: 2019-02-25T19:22:36.831098482+01:00
+    created: 2019-02-25T19:30:57.251632785+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4054187bdcbdeab707fd0985a413f4e93426ff7ea1e4294b44f8d72dc39aa94c
@@ -920,7 +938,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.916.tgz
     version: 1.2.916
   - appVersion: "912"
-    created: 2019-02-25T19:22:36.829279256+01:00
+    created: 2019-02-25T19:30:57.249882976+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 1ee0adc422b196957903f2b12f35e9e7b3d2d13ffcd4f159d719ec0d6aae60ae
@@ -938,7 +956,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.912.tgz
     version: 1.2.912
   - appVersion: "911"
-    created: 2019-02-25T19:22:36.827252658+01:00
+    created: 2019-02-25T19:30:57.248265455+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 9cc388cf649ab17185cd0aec24937dd7bba947f71c3891606da719ef9b454d0c
@@ -956,7 +974,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.911.tgz
     version: 1.2.911
   - appVersion: "910"
-    created: 2019-02-25T19:22:36.825062172+01:00
+    created: 2019-02-25T19:30:57.246557388+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 8dd1694a10bc1dda55a98e3a644b0d1613465dfcbcfec2ba1a0b882db1955e25
@@ -974,7 +992,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.910.tgz
     version: 1.2.910
   - appVersion: "905"
-    created: 2019-02-25T19:22:36.823248015+01:00
+    created: 2019-02-25T19:30:57.244857966+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: c8b6b0444815b20d5620c2fb4cba67cbcb422c3e96288812cc75ef3a655483d5
@@ -992,7 +1010,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.905.tgz
     version: 1.2.905
   - appVersion: "903"
-    created: 2019-02-25T19:22:36.821599702+01:00
+    created: 2019-02-25T19:30:57.243293478+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 0eee24ea4d578d588308b28c40efae041cfd427fa1dde3b11e1b779a9f9e44b1
@@ -1010,7 +1028,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.903.tgz
     version: 1.2.903
   - appVersion: "902"
-    created: 2019-02-25T19:22:36.819104497+01:00
+    created: 2019-02-25T19:30:57.241402521+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 122b2958f152cfd64d43eacacb3eece319f5e55be4a4cf33742c4413c1970819
@@ -1028,7 +1046,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.902.tgz
     version: 1.2.902
   - appVersion: "901"
-    created: 2019-02-25T19:22:36.816284567+01:00
+    created: 2019-02-25T19:30:57.239700214+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 1063a80287920f2dc0e8edc25837f28fe4a4a1ebf194ad10e8ba5d2b3f056194
@@ -1046,7 +1064,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.901.tgz
     version: 1.2.901
   - appVersion: "900"
-    created: 2019-02-25T19:22:36.813613588+01:00
+    created: 2019-02-25T19:30:57.236769089+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 926de04c449ed39984c4b59c0803dec2a4900be717bf2cb8a374a61347b71f9e
@@ -1064,7 +1082,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.900.tgz
     version: 1.2.900
   - appVersion: "896"
-    created: 2019-02-25T19:22:36.811444997+01:00
+    created: 2019-02-25T19:30:57.234732001+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: b79e4d9cd8ea7a93938d73fa4d2cfd715c8c21cbf762743fef52ae791f83795e
@@ -1082,7 +1100,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.896.tgz
     version: 1.2.896
   - appVersion: "894"
-    created: 2019-02-25T19:22:36.807677771+01:00
+    created: 2019-02-25T19:30:57.232930927+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 85fbaae19b72fda7729a4d4959068a7ff554b447fee0aa614ee34c2a8ca356fe
@@ -1100,7 +1118,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.894.tgz
     version: 1.2.894
   - appVersion: "891"
-    created: 2019-02-25T19:22:36.805880377+01:00
+    created: 2019-02-25T19:30:57.231068545+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 33f4f00737f0df3f19b81dd3335967c6e64692bd06c2320e67f3e0e933c3f897
@@ -1118,7 +1136,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.891.tgz
     version: 1.2.891
   - appVersion: "889"
-    created: 2019-02-25T19:22:36.803862183+01:00
+    created: 2019-02-25T19:30:57.229395718+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 2247d963451021c70efeab72db86fad934b0b5b2f8ecec6df6ff779936a13b72
@@ -1136,7 +1154,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.889.tgz
     version: 1.2.889
   - appVersion: "887"
-    created: 2019-02-25T19:22:36.801820957+01:00
+    created: 2019-02-25T19:30:57.227753509+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 7eb890a557a3d48e9c30ca604c5652121ffcd9ce0505b92f1355d061ae99878f
@@ -1154,7 +1172,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.887.tgz
     version: 1.2.887
   - appVersion: "884"
-    created: 2019-02-25T19:22:36.799662086+01:00
+    created: 2019-02-25T19:30:57.225685231+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: aa082bec8816b37111db9b283036a4f0ce21f193b7dfa69bfb5fc1fa5493f0d5
@@ -1172,7 +1190,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.884.tgz
     version: 1.2.884
   - appVersion: "883"
-    created: 2019-02-25T19:22:36.797390861+01:00
+    created: 2019-02-25T19:30:57.223697877+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 96d79fb8f19a5fc6a4d7ae47c04b8772bb158ae1827b817ee7927a5fbc7e0965
@@ -1190,7 +1208,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.883.tgz
     version: 1.2.883
   - appVersion: "881"
-    created: 2019-02-25T19:22:36.795342299+01:00
+    created: 2019-02-25T19:30:57.221786846+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 2a654b6e248b13c6c057f96e78692f58f7f08b69b6b18e099889cf9ebd4f9e23
@@ -1208,7 +1226,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.881.tgz
     version: 1.2.881
   - appVersion: "879"
-    created: 2019-02-25T19:22:36.79276062+01:00
+    created: 2019-02-25T19:30:57.219807861+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 40c0c55bd519cf1687dfbfdae43c77c410c9ddf6257a29c89d5eec8f0193afbc
@@ -1226,7 +1244,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.879.tgz
     version: 1.2.879
   - appVersion: "878"
-    created: 2019-02-25T19:22:36.789845611+01:00
+    created: 2019-02-25T19:30:57.217697939+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 92c3aa7fb5ef4cc0c950dfe0d38583e113feff398c857f4a01643eb621e5ddb7
@@ -1244,7 +1262,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.878.tgz
     version: 1.2.878
   - appVersion: "877"
-    created: 2019-02-25T19:22:36.787213077+01:00
+    created: 2019-02-25T19:30:57.215562585+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 039ff5b844a7536c5882221119e40a17f1a78c74f7b13ed85e5889d6c539a573
@@ -1262,7 +1280,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.877.tgz
     version: 1.2.877
   - appVersion: "874"
-    created: 2019-02-25T19:22:36.78434639+01:00
+    created: 2019-02-25T19:30:57.213469486+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4ffd581582551fe11f9a321f3b7d98cc81c5cce6a37ebc7d00c259240bdacb65
@@ -1280,7 +1298,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.874.tgz
     version: 1.2.874
   - appVersion: "870"
-    created: 2019-02-25T19:22:36.78197286+01:00
+    created: 2019-02-25T19:30:57.211686059+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 5f886f7ea15cac8104e2e8838616fac9cf45447f35cf281af9f2cbc80709a64c
@@ -1298,7 +1316,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.870.tgz
     version: 1.2.870
   - appVersion: "869"
-    created: 2019-02-25T19:22:36.779635795+01:00
+    created: 2019-02-25T19:30:57.210082332+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 8bf0ae15e39a8852e2efd22c7bde25142d060a93033290a3f14634666e3c72c6
@@ -1316,7 +1334,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.869.tgz
     version: 1.2.869
   - appVersion: "868"
-    created: 2019-02-25T19:22:36.777842341+01:00
+    created: 2019-02-25T19:30:57.20843333+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 7582b58a70cd2ae9ff55b7c39341fec37c3c2308b58a23ee3d0450e25e5d7204
@@ -1334,7 +1352,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.868.tgz
     version: 1.2.868
   - appVersion: "867"
-    created: 2019-02-25T19:22:36.775677498+01:00
+    created: 2019-02-25T19:30:57.20672857+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: ae40c5dd6af81be55a96670d478f286c8d018bccefde1cbe03cda61116309af8
@@ -1352,7 +1370,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.867.tgz
     version: 1.2.867
   - appVersion: "866"
-    created: 2019-02-25T19:22:36.773938936+01:00
+    created: 2019-02-25T19:30:57.205062414+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 639cb496cf5866c3d01d2aac564277a3d122fbb2c5ad5991c6fa86af08b739b7
@@ -1370,7 +1388,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.866.tgz
     version: 1.2.866
   - appVersion: "865"
-    created: 2019-02-25T19:22:36.772056453+01:00
+    created: 2019-02-25T19:30:57.203388851+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: dc5e80b383ce8739d51c5c539a867b0eac6cfc657cc4dc41fb021b6f9fd4b88b
@@ -1388,7 +1406,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.865.tgz
     version: 1.2.865
   - appVersion: "864"
-    created: 2019-02-25T19:22:36.770236793+01:00
+    created: 2019-02-25T19:30:57.201712556+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 960aa8a3b4b6cc449906477d6c2c840a392607560caac2cd7999e192d98732f3
@@ -1406,7 +1424,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.864.tgz
     version: 1.2.864
   - appVersion: "861"
-    created: 2019-02-25T19:22:36.768411775+01:00
+    created: 2019-02-25T19:30:57.199931447+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: db7ec3ffb6bdbc0f5d0d43059b3f8d1cc465d6c92f8ae72c48a247e5f0b3276b
@@ -1424,7 +1442,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.861.tgz
     version: 1.2.861
   - appVersion: "857"
-    created: 2019-02-25T19:22:36.76664519+01:00
+    created: 2019-02-25T19:30:57.198316398+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 825cee146293a6945d7c36551b272b1432faad4a42e9ad9a59263a2b8f78ccf0
@@ -1442,7 +1460,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.857.tgz
     version: 1.2.857
   - appVersion: "855"
-    created: 2019-02-25T19:22:36.765060151+01:00
+    created: 2019-02-25T19:30:57.196539181+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 3ae7b8dfeabbf92126512b769ab1d210955339c4287b56a9ccbbcdc1232127c1
@@ -1460,7 +1478,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.855.tgz
     version: 1.2.855
   - appVersion: "853"
-    created: 2019-02-25T19:22:36.763427644+01:00
+    created: 2019-02-25T19:30:57.193914713+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 2efdb59100fe516ff939f74cb70518a8db6bf70511cfdc85f70b5eddc8e777f2
@@ -1478,7 +1496,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.853.tgz
     version: 1.2.853
   - appVersion: "852"
-    created: 2019-02-25T19:22:36.761745729+01:00
+    created: 2019-02-25T19:30:57.192274694+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: ee5ae1a3ae50bef2d7fe4cda1859a7ee11cc0a4a668872623246a310f16593a8
@@ -1496,7 +1514,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.852.tgz
     version: 1.2.852
   - appVersion: "851"
-    created: 2019-02-25T19:22:36.758444477+01:00
+    created: 2019-02-25T19:30:57.190539049+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 092289efacf9fb502623a8efb17786166b61ed2da55d47ba43fed56b416ce638
@@ -1514,7 +1532,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.851.tgz
     version: 1.2.851
   - appVersion: "850"
-    created: 2019-02-25T19:22:36.756768299+01:00
+    created: 2019-02-25T19:30:57.188249643+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 3de368fcd431e505ac4c757dac451bd7a42e8eb292f5c648ef2de6b11a33ca67
@@ -1532,7 +1550,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.850.tgz
     version: 1.2.850
   - appVersion: "849"
-    created: 2019-02-25T19:22:36.755010343+01:00
+    created: 2019-02-25T19:30:57.186596449+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 20c6c6777dfda9b85a3e958092dc59b4253eb91feaed45a9e897110d252f354e
@@ -1550,7 +1568,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.849.tgz
     version: 1.2.849
   - appVersion: "848"
-    created: 2019-02-25T19:22:36.753323834+01:00
+    created: 2019-02-25T19:30:57.184947894+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: abbac26255b4ebfc8f587ce963611c48f6f931d8a872d4dc05e5c602e71c252e
@@ -1568,7 +1586,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.848.tgz
     version: 1.2.848
   - appVersion: "844"
-    created: 2019-02-25T19:22:36.751560953+01:00
+    created: 2019-02-25T19:30:57.183122446+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: aa00b264454929261ceb62ac242516dec6b2a8da1c30b6a82f60ed98739a8ae2
@@ -1586,7 +1604,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.844.tgz
     version: 1.2.844
   - appVersion: "843"
-    created: 2019-02-25T19:22:36.749659291+01:00
+    created: 2019-02-25T19:30:57.181294461+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 5b3972dc3846a55561e94bd1d651841112f4ef5ddcd3cbe252f50eff6d0e14b7
@@ -1604,7 +1622,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.843.tgz
     version: 1.2.843
   - appVersion: "842"
-    created: 2019-02-25T19:22:36.747897347+01:00
+    created: 2019-02-25T19:30:57.179623374+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: c1365aead4b3ccad3b170e12ada0a3ca0a63f4a180c27e49fb8bd028133d32d5
@@ -1622,7 +1640,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.842.tgz
     version: 1.2.842
   - appVersion: "841"
-    created: 2019-02-25T19:22:36.746035325+01:00
+    created: 2019-02-25T19:30:57.17772278+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 6ac7a3a52576c126a713944bc2a3a8eb2ced0b60996b531f20763d9fe418eef1
@@ -1640,7 +1658,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.841.tgz
     version: 1.2.841
   - appVersion: "839"
-    created: 2019-02-25T19:22:36.744193248+01:00
+    created: 2019-02-25T19:30:57.176142368+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: dbf3441a3b57951e772d136e7573743796f8a5cf10fda163d0bf540f24ec1e8a
@@ -1658,7 +1676,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.839.tgz
     version: 1.2.839
   - appVersion: "838"
-    created: 2019-02-25T19:22:36.742410363+01:00
+    created: 2019-02-25T19:30:57.174502364+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 518cf2e8de02ec8d35b30fec95bbdbd7853bb1a080f74d6b5f31bde0dcc3ad23
@@ -1676,7 +1694,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.838.tgz
     version: 1.2.838
   - appVersion: "834"
-    created: 2019-02-25T19:22:36.740559322+01:00
+    created: 2019-02-25T19:30:57.172352552+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 0cff30fbc50a7c4e93dfd8dcc963749e97bde5b641c879ba453aae5685505ee6
@@ -1694,7 +1712,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.834.tgz
     version: 1.2.834
   - appVersion: "832"
-    created: 2019-02-25T19:22:36.738797573+01:00
+    created: 2019-02-25T19:30:57.169985993+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: de6b3bd4d0b31c5727dbc3d8805b3d04b02c05ee7c7b141fe3ec66fbff0a35d9
@@ -1712,7 +1730,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.832.tgz
     version: 1.2.832
   - appVersion: "830"
-    created: 2019-02-25T19:22:36.736700059+01:00
+    created: 2019-02-25T19:30:57.168175087+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4ceb19050d4ae57a1df1092019aac99adbeae249bbdf0a380ff7e9120ae45051
@@ -1730,7 +1748,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.830.tgz
     version: 1.2.830
   - appVersion: "822"
-    created: 2019-02-25T19:22:36.734369591+01:00
+    created: 2019-02-25T19:30:57.166070521+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 70c3a110f8db2a292cac0a42ac796ded3d8bdb8ff8b5e2ed690625389fb2930c
@@ -1748,7 +1766,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.822.tgz
     version: 1.2.822
   - appVersion: "821"
-    created: 2019-02-25T19:22:36.732642964+01:00
+    created: 2019-02-25T19:30:57.164342438+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 7a8d4cda7876cc2ffa328cab872d3b6752a640904164df33bf9f4d8d245d97b5
@@ -1766,7 +1784,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.821.tgz
     version: 1.2.821
   - appVersion: "819"
-    created: 2019-02-25T19:22:36.730937041+01:00
+    created: 2019-02-25T19:30:57.162583101+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: ab62f6a8ce820216bb8b26966b3ed8b77685a5a3a8f14e495e3d1e0ab305f250
@@ -1784,7 +1802,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.819.tgz
     version: 1.2.819
   - appVersion: "813"
-    created: 2019-02-25T19:22:36.729023681+01:00
+    created: 2019-02-25T19:30:57.160832008+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 43fe5e7a85c387d68384de42b272acf8ed816a90c87763e8640d2920bc0f5461
@@ -1802,7 +1820,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.813.tgz
     version: 1.2.813
   - appVersion: "812"
-    created: 2019-02-25T19:22:36.727218799+01:00
+    created: 2019-02-25T19:30:57.158770898+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: aaed8da92a918dc2fdd14f7ee374c722f47056733018486eb6a2cc8c3ae3aa36
@@ -1820,7 +1838,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.812.tgz
     version: 1.2.812
   - appVersion: "810"
-    created: 2019-02-25T19:22:36.725534465+01:00
+    created: 2019-02-25T19:30:57.157005917+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 19a279b0e453d5dfc66188d29eeb6b70d3ef58686eb3ec27bbbfa1f22e670ad6
@@ -1838,7 +1856,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.810.tgz
     version: 1.2.810
   - appVersion: "809"
-    created: 2019-02-25T19:22:36.723855696+01:00
+    created: 2019-02-25T19:30:57.154968466+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 62e0299e32121ae764bbcdebc53f4cb21f9fc1893f8ddf80a3cbd59964411450
@@ -1856,7 +1874,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.809.tgz
     version: 1.2.809
   - appVersion: "808"
-    created: 2019-02-25T19:22:36.722089851+01:00
+    created: 2019-02-25T19:30:57.153310952+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 27e6a94374935959febaf8edfeb59da92d65b068640d04d2370d9c964273bd55
@@ -1874,7 +1892,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.808.tgz
     version: 1.2.808
   - appVersion: "804"
-    created: 2019-02-25T19:22:36.720198103+01:00
+    created: 2019-02-25T19:30:57.151460916+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 6ff39fd5ef3511e313cc20c540da8521adb76466d4ad53b1058af50b1fe1fce3
@@ -1892,7 +1910,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.804.tgz
     version: 1.2.804
   - appVersion: "800"
-    created: 2019-02-25T19:22:36.718506584+01:00
+    created: 2019-02-25T19:30:57.14948029+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 5c0970002a728439fef7fe85e916d3d017bf811002a4518ddbe2efeb9260d0d7
@@ -1910,7 +1928,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.800.tgz
     version: 1.2.800
   - appVersion: "797"
-    created: 2019-02-25T19:22:36.715395408+01:00
+    created: 2019-02-25T19:30:57.147112449+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 9a2313afd11aa0c48a3ad60385a882c5f9d8b02316b51d1e16e510f1e783be1c
@@ -1928,7 +1946,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.797.tgz
     version: 1.2.797
   - appVersion: "792"
-    created: 2019-02-25T19:22:36.713388204+01:00
+    created: 2019-02-25T19:30:57.145473639+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 54f83bb85e7668c3d2469e17cb3ca69f57b4815dbd11da922dd21d480669c408
@@ -1946,7 +1964,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.792.tgz
     version: 1.2.792
   - appVersion: "791"
-    created: 2019-02-25T19:22:36.711591595+01:00
+    created: 2019-02-25T19:30:57.143893872+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: b70733a105a8778820f331bdd1de39b993ad6249553ec33db0ea9d85d113f2af
@@ -1964,7 +1982,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.791.tgz
     version: 1.2.791
   - appVersion: "790"
-    created: 2019-02-25T19:22:36.709754905+01:00
+    created: 2019-02-25T19:30:57.142228507+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 14a7b87c734f52a57fea653bb3cc9ddcd5f65a83cb5a41c4524e8c96cccc9e8f
@@ -1982,7 +2000,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.790.tgz
     version: 1.2.790
   - appVersion: "789"
-    created: 2019-02-25T19:22:36.707629048+01:00
+    created: 2019-02-25T19:30:57.140589751+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 7b382dc3362751bbdd8e2ef0457dad1eba27c5c7f2aef50ac8d8a98de451eced
@@ -2000,7 +2018,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.789.tgz
     version: 1.2.789
   - appVersion: "788"
-    created: 2019-02-25T19:22:36.705895863+01:00
+    created: 2019-02-25T19:30:57.138930193+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 9cf90ee22e81be50e6d282b1e43af186141e54faa42f76175731f128fd6f0fee
@@ -2018,7 +2036,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.788.tgz
     version: 1.2.788
   - appVersion: "787"
-    created: 2019-02-25T19:22:36.704126391+01:00
+    created: 2019-02-25T19:30:57.137308446+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: bfad81419e87570f606668b6c892a9397bd702a7e182498eb712a5e5c0da5e7d
@@ -2036,7 +2054,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.787.tgz
     version: 1.2.787
   - appVersion: "786"
-    created: 2019-02-25T19:22:36.701465896+01:00
+    created: 2019-02-25T19:30:57.135537132+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: a60e8d80fa15f1f60548920f79a3d271e2deb702ab05467d6424c10bdfca05be
@@ -2054,7 +2072,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.786.tgz
     version: 1.2.786
   - appVersion: "785"
-    created: 2019-02-25T19:22:36.698963549+01:00
+    created: 2019-02-25T19:30:57.133652533+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 7c0159900010c25fcf88d893fdc9312ad93cadd50cd29095d201ff810b5ff4a8
@@ -2072,7 +2090,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.785.tgz
     version: 1.2.785
   - appVersion: "784"
-    created: 2019-02-25T19:22:36.696435079+01:00
+    created: 2019-02-25T19:30:57.132088201+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: cf1fd87889b440cf07f1f559984d81e1f41b59dc8eca2643b22d7c8bea791963
@@ -2090,7 +2108,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.784.tgz
     version: 1.2.784
   - appVersion: "783"
-    created: 2019-02-25T19:22:36.694302224+01:00
+    created: 2019-02-25T19:30:57.13035874+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 3b68c50c4f0d4d872a9339c77aa43455e4522c20c1f7619a023a8556295da14a
@@ -2108,7 +2126,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.783.tgz
     version: 1.2.783
   - appVersion: "782"
-    created: 2019-02-25T19:22:36.692234793+01:00
+    created: 2019-02-25T19:30:57.122464237+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 36e7ed86b7d7334a9018b6b019577ccf3c4f914db1b810e80a7239a1ac08a89b
@@ -2126,7 +2144,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.782.tgz
     version: 1.2.782
   - appVersion: "780"
-    created: 2019-02-25T19:22:36.689829685+01:00
+    created: 2019-02-25T19:30:57.120165212+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 8f06802126932c07b81c0b88ba45caf15993fa2a647ccc28e8b399b22113a44d
@@ -2144,7 +2162,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.780.tgz
     version: 1.2.780
   - appVersion: "779"
-    created: 2019-02-25T19:22:36.686936058+01:00
+    created: 2019-02-25T19:30:57.11716053+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 401ea63a8192ad8fdf7532a85df0e3292d8fcd61020492d4c5a0cec59b9ff9bb
@@ -2162,7 +2180,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.779.tgz
     version: 1.2.779
   - appVersion: "774"
-    created: 2019-02-25T19:22:36.68509325+01:00
+    created: 2019-02-25T19:30:57.114668726+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: cd188486566f0349665c9c53c5e3bdf27afadd930b229f80f762c488d40d0b7a
@@ -2180,7 +2198,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.774.tgz
     version: 1.2.774
   - appVersion: "773"
-    created: 2019-02-25T19:22:36.68339841+01:00
+    created: 2019-02-25T19:30:57.112932123+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 073091bfdc7b113d0e491a06c498b92d8bfece7dd05c6559273efb61982c4f8c
@@ -2198,7 +2216,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.773.tgz
     version: 1.2.773
   - appVersion: "772"
-    created: 2019-02-25T19:22:36.681785047+01:00
+    created: 2019-02-25T19:30:57.111204144+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 11184fd0c2386bd26d2fe03eabb951608fd03655f0950e3be9bb905b73581a42
@@ -2216,7 +2234,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.772.tgz
     version: 1.2.772
   - appVersion: "771"
-    created: 2019-02-25T19:22:36.68025652+01:00
+    created: 2019-02-25T19:30:57.109356303+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 77d9f4416b7371b902a245fcbc3443d3b21b7f7ffd3f3f7bef26d7d660cf14af
@@ -2234,7 +2252,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.771.tgz
     version: 1.2.771
   - appVersion: "770"
-    created: 2019-02-25T19:22:36.678005436+01:00
+    created: 2019-02-25T19:30:57.107642883+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 7243a179fca668cc171cb05e603edf2f872bbe49d9f588f77b99d2ae79525caf
@@ -2252,7 +2270,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.770.tgz
     version: 1.2.770
   - appVersion: "768"
-    created: 2019-02-25T19:22:36.676357215+01:00
+    created: 2019-02-25T19:30:57.106059206+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 4c0cec82b0e0d70aee7afa5cdae8e5007c79e26a6c6e03446d09404015d8991e
@@ -2270,7 +2288,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.768.tgz
     version: 1.2.768
   - appVersion: "767"
-    created: 2019-02-25T19:22:36.674608027+01:00
+    created: 2019-02-25T19:30:57.10435979+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 5fd3d7a80a6e820a1d1022c6e5b48a803f2deb67f1126e974c95f34fec987ebd
@@ -2288,7 +2306,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.767.tgz
     version: 1.2.767
   - appVersion: "766"
-    created: 2019-02-25T19:22:36.67302429+01:00
+    created: 2019-02-25T19:30:57.102716492+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 8926f2eab1301302fb137afb8cac022f720e3be67bf80e6cdb51999a6585e303
@@ -2306,7 +2324,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.766.tgz
     version: 1.2.766
   - appVersion: "763"
-    created: 2019-02-25T19:22:36.671478986+01:00
+    created: 2019-02-25T19:30:57.101097938+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: b271a7a1aed87abec8c80763a54db0f57e81f546bc6e8bdb4610037c40b85ad5
@@ -2324,7 +2342,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.763.tgz
     version: 1.2.763
   - appVersion: "759"
-    created: 2019-02-25T19:22:36.669861459+01:00
+    created: 2019-02-25T19:30:57.099491653+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 98c0ec9abd61eefe209bec2bdb6cd52b2ee966c2ab264d24c2da0a732de97390
@@ -2342,7 +2360,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.759.tgz
     version: 1.2.759
   - appVersion: "758"
-    created: 2019-02-25T19:22:36.668010585+01:00
+    created: 2019-02-25T19:30:57.097537992+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 0ef7a56d16cd5d8b3562ba6b27c68d67e8ef694638df5d3f8e838628475ecf7a
@@ -2360,7 +2378,7 @@ entries:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.758.tgz
     version: 1.2.758
   - appVersion: "754"
-    created: 2019-02-25T19:22:36.665241883+01:00
+    created: 2019-02-25T19:30:57.095610745+01:00
     description: The Yona Server backs the Yona mobile app, providing user management,
       buddy relationship management, web traffic classification and buddy messaging
     digest: 3510ba37743a96b21730a7fe67f26c353bc25b59c0d11877d18d2daeee75d7ec
@@ -2377,4 +2395,4 @@ entries:
     urls:
     - https://jump.ops.yona.nu/helm-charts/yona-1.2.754.tgz
     version: 1.2.754
-generated: 2019-02-25T19:22:36.652078601+01:00
+generated: 2019-02-25T19:30:57.08173908+01:00
