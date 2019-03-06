@@ -12,6 +12,7 @@ spec:
       labels:
         app: {{ .Values.metadata.label | default "hazelcast" }}
     spec:
+      terminationGracePeriodSeconds: 600
       affinity:
         podAntiAffinity:
           preferredDuringSchedulingIgnoredDuringExecution:
@@ -26,16 +27,30 @@ spec:
               topologyKey: "kubernetes.io/hostname"
       containers:
       - name: hazelcast-node
-        image: hazelcast/hazelcast-kubernetes:3.9.3
+        image: hazelcast/hazelcast:3.11.2
         ports:
         - containerPort: {{ .Values.service.port | default "5701" }}
+        env:
+          - name: JAVA_OPTS
+            value: "-Dhazelcast.rest.enabled=true -Dhazelcast.config=/data/hazelcast/hazelcast.xml"
         livenessProbe:
-          exec:
-            command:
-            - "./liveness.sh"
+          httpGet:
+            path: /hazelcast/health/node-state
+            port: 5701
           initialDelaySeconds: 30
           timeoutSeconds: 5
           periodSeconds: 10
-        envFrom:
-        - configMapRef:
-            name: {{ .Values.configmap.name | default "hz-config" }}
+        readinessProbe:
+          httpGet:
+            path: /hazelcast/health/node-state
+            port: 5701
+          initialDelaySeconds: 30
+          timeoutSeconds: 5
+          periodSeconds: 10
+        volumeMounts:
+        - name: hazelcast-storage
+          mountPath: /data/hazelcast
+      volumes:
+      - name: hazelcast-storage
+        configMap:
+          name: {{ .Values.configmap.name }}
