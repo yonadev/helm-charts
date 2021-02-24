@@ -13,6 +13,7 @@ service:
   node_port: 30571
 
 ReplicationController:
+  image_version: 3.11.2
   replicas: 3
   
 configmap:
