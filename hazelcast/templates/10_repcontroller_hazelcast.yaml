@@ -27,7 +27,7 @@ spec:
               topologyKey: "kubernetes.io/hostname"
       containers:
       - name: hazelcast-node
-        image: hazelcast/hazelcast:3.11.2
+        image: hazelcast/hazelcast:{{ .Values.ReplicationController.image_version | default "3.11.2" }}
         ports:
         - containerPort: {{ .Values.service.port | default "5701" }}
         env:
