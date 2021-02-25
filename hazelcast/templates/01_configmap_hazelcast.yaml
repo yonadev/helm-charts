@@ -13,6 +13,9 @@ data:
         <property name="hazelcast.discovery.enabled">true</property>
       </properties>
       <network>
+        <rest-api enabled="true">
+          <endpoint-group name="HEALTH_CHECK" enabled="true"/>
+        </rest-api>
         <join>
           <multicast enabled="false"/>
           <kubernetes enabled="true">
