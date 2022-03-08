@@ -1,0 +1,20 @@
+# Default values.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+metadata:
+  name: hazelcast
+  label: hazelcast
+
+service:
+  name: hazelcast
+  port: 5701
+  port_name: hzport
+  node_port: 30571
+
+ReplicationController:
+  image_version: 3.11.2
+  replicas: 3
+  
+configmap:
+  name: hz-config
